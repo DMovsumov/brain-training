@@ -1,0 +1,20 @@
+{
+  "name": "brain-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMovsumov/brain-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DMovsumov/brain-training/issues"
+  },
+  "homepage": "https://github.com/DMovsumov/brain-training#readme"
+}

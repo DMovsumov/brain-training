@@ -1,0 +1,28 @@
+{
+  "root": "apps/memory-card-e2e",
+  "sourceRoot": "apps/memory-card-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/memory-card-e2e/cypress.json",
+        "devServerTarget": "memory-card:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "memory-card:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/memory-card-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["memory-card"]
+}
