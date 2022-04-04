@@ -7,9 +7,9 @@ const StyledApp = styled.div`
 
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="memory-card" />
-    </StyledApp>
+      <StyledApp>
+        <NxWelcome title="memory-card" />
+      </StyledApp>
   );
 }
 

@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react';
-import { UiKit, UiKitProps } from '../../src/UiKit/ui-kit';
+import { UiKit, UiKitProps } from '../../../src/components/ui-kit/ui-kit';
 
 export default {
   component: UiKit,
