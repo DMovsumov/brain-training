@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "memory-card": "apps/memory-card",
-    "memory-card-e2e": "apps/memory-card-e2e",
-    "ui-kit": "libs/ui-kit",
-    "ui-kit-e2e": "apps/ui-kit-e2e"
-  }
-}
